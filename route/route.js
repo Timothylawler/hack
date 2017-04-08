@@ -1,10 +1,15 @@
-
+var id;
 $(function(){
+	id = sessionStorage.getItem("currentRoute");
 	getData();
 	loadImg();
 })
+/*
 //Global id
-const id = sessionStorage.getItem("currentRoute");
+console.log(sessionStorage);
+//const id = sessionStorage.getItem("currentRoute");
+const id = sessionStorage.currentRoute;
+*/
 
 function getData(){
 	

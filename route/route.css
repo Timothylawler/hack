@@ -25,6 +25,11 @@
 
 
 /*IDs*/
+#backIcon{
+	color: white;
+	margin-top: 4px;
+}
+
 #card{
 	margin-bottom: 0;
 }

@@ -48,8 +48,9 @@ $(document).ready(function(){
 	});
 	
 	$('#acceptBtn').click(function(){
+		console.log(currentMap);
 		sessionStorage.setItem("currentRoute", currentMap);
-		window.location.href = 'http://localhost:50417/route/route.html';
+		window.location.href = '/route/route.html';
 	});
 	
 	$('#showModalBtn').click(function(){
