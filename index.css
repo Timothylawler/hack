@@ -13,7 +13,17 @@
 	z-index: 0;
 }
 
+@keyframes slide {
+	from {left: 0px; opacity: 1}
+	to {left: 400px; opacity: 0}
+}
 
+.slideMap{
+	animation-name: slide;
+	-webkit-animation-name: slide; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 300ms; /* Safari 4.0 - 8.0 */
+	animation-duration: 300ms;
+}
 
 .title{
 	z-index: 10;
