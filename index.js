@@ -12,7 +12,7 @@ $(document).ready(function(){
 	
 	$('#acceptBtn').click(function(){
 		sessionStorage.setItem("currentRoute", 0);
-		window.location.href = 'http://localhost:52884/route/routes';
+		window.location.href = 'http://localhost:50417/route/route.html';
 	});
 	
 	$('#showModalBtn').click(function(){
