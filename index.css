@@ -23,6 +23,10 @@
 	text-align: center;
 }
 
+.accentify{
+	background-color:"#ff55be" !important;
+}
+
 .card-content{
 	padding: 12px !important;
 }
@@ -30,8 +34,8 @@
 .modal-info{
 	min-height: 200px;
 	
-	
 }
+
 
 .hidden{
 	display: none !important;
@@ -54,6 +58,7 @@
 	right: 0px;
 	display: inline;
 	bottom: 24px;
+	
 }
 
 .selectarrow{
