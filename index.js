@@ -49,7 +49,8 @@ $(document).ready(function(){
 	
 	$('#acceptBtn').click(function(){
 		sessionStorage.setItem("currentRoute", currentMap);
-		window.location.href = 'http://localhost:50417/route/route.html';
+		console.log("SESSIOS: ", sessionStorage);
+		window.location.href = '/route/route.html';
 	});
 	
 	$('#showModalBtn').click(function(){
