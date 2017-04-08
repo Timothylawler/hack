@@ -5,14 +5,12 @@ $(function(){
 
 
 function getData(){
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "northack.crystalalarm.se/api", true);
-  xhttp.send();
+	/*
+	$.ajax({url: "http://northack.crystalalarm.se/api/?lati=62.417949189425&longi=17.327530914444", 
+		success: function(result){
+			console.log(result);
+		}});
+	*/
 }
 
 

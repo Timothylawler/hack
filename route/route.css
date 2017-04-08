@@ -3,6 +3,18 @@
 	background-color: aqua;
 }
 
+.title{
+	z-index: 10;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.card-content{
+	padding: 12px !important;
+}
+
+
 /*IDs*/
 #start{
 	margin-left: 18.750px;
