@@ -43,6 +43,8 @@ $(document).ready(function(){
 	function doStuff(data){
 		console.log("DATIS: ", data);
 		document.getElementById("pageTitle").innerHTML = data[0].name;
+		document.getElementById("modal-header").innerHTML =data[0].name;
+		
 	}
 	
 });
