@@ -22,6 +22,9 @@ function getData(){
 		}
 	});
 }
+$('#goBack').click(function(){
+	window.location.href = '/route/route.html';
+});
 
 function loadImg(){
 	document.getElementById("cardImg").setAttribute("src", "img/"+id+".png");
