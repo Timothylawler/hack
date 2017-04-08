@@ -13,13 +13,22 @@
 .card-content{
 	padding: 12px !important;
 }
+.card-action{
+	padding: 8px !important;
+}
 
 .icons{
+	bottom:0;
+	margin-bottom: 100px;
 	fill: "#bebebe";
 }
 
 
 /*IDs*/
+#card{
+	margin-bottom: 0;
+}
+
 #start{
 	margin-left: 18.750px;
 	margin-right: 18.750px;
