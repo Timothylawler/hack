@@ -7,17 +7,13 @@ $(document).ready(function(){
 	
 	$('.modal').modal();
 	
+	$('#acceptBtn').click(function(){
+		sessionStorage.setItem("currentRoute", 0);
+		window.location.href = 'http://localhost:52884/route/routes';
+	});
 	
-	
-	
-	function getData(){
-		let self = this;
+	function doStuff(data){
 		
-	
 	}
-	
-	
-	
-	getData();
 	
 });

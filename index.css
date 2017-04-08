@@ -17,6 +17,7 @@
 
 .title{
 	z-index: 10;
+	top: 0;
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -47,7 +48,6 @@
 	position: fixed;
 	bottom: 0;
 	margin: 16px;
-	
 }
 
 .selectarrow.right{
