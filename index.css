@@ -1,0 +1,67 @@
+
+
+#map{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.down{
+	z-index: 0;
+}
+
+
+
+.title{
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.card-content{
+	padding: 12px !important;
+}
+
+.modal-info{
+	min-height: 200px;
+}
+
+.closeModal{
+	position: absolute;
+	top: 0;
+}
+
+.fab-fixed{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	display: inline;
+	bottom: 24px;
+}
+
+.selectarrow{
+	position: fixed;
+	bottom: 0;
+	margin: 16px;
+	
+}
+
+.selectarrow.right{
+	right: 0;
+	bottom: 12px;
+	left: auto;
+	text-align: right;
+	display: inline;
+}
+
+.selectarrow.left{
+	left: 0;
+	bottom: 12px;
+	right: auto;
+	padding 8px;
+	
+}
